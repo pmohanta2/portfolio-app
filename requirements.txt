@@ -4,5 +4,5 @@ numpy
 yfinance
 nsepy
 datetime
-plotly.express
+plotly
 warnings
