@@ -12,8 +12,8 @@ import datetime
 import plotly.express as px
 import streamlit as st
 
-import warnings
-warnings.filterwarnings('ignore')
+#import warnings
+#warnings.filterwarnings('ignore')
 
 
 # In[ ]:
