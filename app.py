@@ -203,6 +203,6 @@ if submitted:
     st.table(table)
     
     st.write('Top Stocks Selected:')
-    st.write(np.array(top).tolist())
+    st.write(np.array(topn).tolist())
     
 
