@@ -47,7 +47,8 @@ with st.form("my_form"):
 # In[ ]:
 
 
-URL = 'https://archives.nseindia.com/content/indices/ind_nifty50list.csv'
+#URL = 'https://archives.nseindia.com/content/indices/ind_nifty50list.csv'
+URL = 'https://nsearchives.nseindia.com/content/indices/ind_nifty50list.csv'
 df = pd.read_csv(URL, index_col = 'Company Name')
 df['Yahoo_Symbol']='Hello World'
 df.Yahoo_Symbol= df.Symbol + '.NS'
